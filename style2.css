@@ -1,0 +1,58 @@
+.loader {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 20px solid orange;
+    border-top: 20px solid rgb(239, 186, 186);
+    animation: spinAnimate 3s steps(5) 0s infinite normal;
+}
+
+@keyframes spinAnimate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loader2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 20px solid whitesmoke;
+    border-top: 20px solid rgb(82, 51, 51);
+    animation: spinAnimate 3s steps(5) 0s infinite normal;
+}
+
+@keyframes spinAnimate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loader3 {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border: 20px solid green;
+    border-top: 20px solid rgb(78, 35, 35);
+    animation: spinAnimate 3s steps(5) 0s infinite normal;
+}
+
+@keyframes spinAnimate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
